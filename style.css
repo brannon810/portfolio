@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    padding: 5px;
+}
+
+nav > div > a, nav > a {
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-family: Arial;
+    font-weight: 700;
+    transition: ease-in 0.3s;
+}
+
+nav > div > a:hover, nav > a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#pages {
+    position: absolute;
+    width: 89%;
+    height: 100%;
+    left: 160px;
+    text-align: center;
+}
+
+#background-header {
+    background-image: url("img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#background-header > img {
+    margin: 20px;
+}
+
+#header {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+
+#header > h1 {
+    font-family: Arial;
+    margin: 10px;
+}
+
+#header > hr {
+    background-color: red;
+    border: none;
+    width: 400px;
+    height: 5px;
+}
+
+#mission {
+    display: inline-block;
+    width: 900px;
+    text-align: left;
+}
+
+h2 {
+    font-family: Arial;
+}
+
+p {
+    font-family: Arial;
+    font-size: 1.3em;
+}
+
+#contact {
+    background-color: grey;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+#contact > a {
+    display: block;
+    font-family: Arial;
+    transition: ease-in 0.3s;
+}
+
+#contact > a:hover {
+    color: red;
+}
+
+#originality > div {
+    text-align: left;
+    width: 900px;
+}
+
+#goals > ul {
+    text-align: left;
+}
+
+#references > div {
+    background-color: grey;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 20px;
+}
+
+#references > div > a {
+    display: block;
+    font-family: Arial;
+    transition: ease-in 0.3s;
+}
+
+#references > div > a:hover {
+    color: red;
+}
