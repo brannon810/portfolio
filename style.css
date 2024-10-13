@@ -33,7 +33,7 @@ nav > div > a:hover, nav > a:hover {
 }
 
 #background-header {
-    position: relative;
+    position: absolute;
     background-image: url("img/header-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
