@@ -37,7 +37,7 @@ nav > div > a:hover, nav > a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 200px;
+    width: 90%;
     border-radius: 20px;
 }
 
