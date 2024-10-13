@@ -128,3 +128,9 @@ p {
 #references > div > a:hover {
     color: red;
 }
+
+#resume > img {
+    border: solid;
+    border-width: thick;
+    border-color: grey;
+}
