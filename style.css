@@ -26,14 +26,14 @@ nav > div > a:hover, nav > a:hover {
 
 #pages {
     position: absolute;
-    width: 89%;
+    width: 85%;
     height: 100%;
     left: 160px;
     text-align: center;
 }
 
 #background-header {
-    position: absolute;
+    position: relative;
     background-image: url("img/header-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
