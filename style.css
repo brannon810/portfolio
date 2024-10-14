@@ -10,6 +10,10 @@ nav {
     padding: 1em;
 }
 
+nav > div > a {
+    margin-top: 5px;
+}
+
 nav > div > img {
     position: relative;
     width: 100%;
