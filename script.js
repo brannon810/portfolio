@@ -8,16 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
         if (shownav == true) {
             shownav = false
             document.querySelector("nav").querySelector("div").style.display = "none"
-            document.querySelector("nav").style.width = "20px"
-            document.getElementById("pages").style.width = "99%"
-            document.getElementById("pages").style.left = "20px"
+            document.querySelector("nav").style.width = "1vw"
+            document.getElementById("pages").style.width = "90vw"
             document.getElementById("hide-show").innerText = ">"
         } else {
             shownav = true
             document.querySelector("nav").querySelector("div").style.display = "block"
-            document.querySelector("nav").style.width = "10%"
-            document.getElementById("pages").style.width = "89%"
-            document.getElementById("pages").style.left = "160px"
+            document.querySelector("nav").style.width = "10vw"
+            document.getElementById("pages").style.width = "80vw"
             document.getElementById("hide-show").innerText = "<"
         }
     })

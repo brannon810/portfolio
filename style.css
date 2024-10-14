@@ -1,83 +1,82 @@
 body {
-    background-color: white;
-    margin: 0;
+    text-align: center;
+    margin: 1em;
 }
 
 nav {
-    position: absolute;
-    height: 100%;
-    width: 10%;
-    padding: 5px;
-}
-
-nav > div > a, nav > a {
     display: inline-block;
-    margin-top: 10px;
-    color: black;
-    font-family: Arial;
-    font-weight: 700;
-    transition: ease-in 0.3s;
-}
-
-nav > div > a:hover, nav > a:hover {
-    cursor: pointer;
-    color: red;
-}
-
-#pages {
-    position: absolute;
-    width: 89%;
-    height: 100%;
-    left: 160px;
-    text-align: center;
-}
-
-#background-header {
-    background-image: url("img/header-background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    border-radius: 20px;
-}
-
-#background-header > img {
-    margin: 20px;
-}
-
-#header {
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    width: 500px;
-    height: 200px;
-}
-
-#header > h1 {
-    font-family: Arial;
-    margin: 10px;
-}
-
-#header > hr {
-    background-color: red;
-    border: none;
-    width: 400px;
-    height: 5px;
-}
-
-#mission {
-    display: inline-block;
-    width: 800px;
     text-align: left;
+    width: 10vw;
+    padding: 1em;
 }
 
-h2 {
+nav > div > img {
+    position: relative;
+    width: 100%;
+}
+
+h1, h2 {
     font-family: Arial;
 }
 
 p {
     font-family: Arial;
-    font-size: 1.3em;
+    font-size: 20px;
+}
+
+a {
+    display: block;
+    font-family: Arial;
+    font-weight: 900;
+    transition: ease-in 0.3s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+#pages {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    width: 80vw;
+}
+
+#background-header {
+    background-image: url("img/header-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#header {
+    display: inline-block;
+    width: 500px;
+}
+
+#header > hr {
+    background-color: red;
+    border-color: black;
+    border-width: thin;
+    width: 350px;
+    height: 5px;
+}
+
+#home {
+    text-align: center;
+}
+
+#mission {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+    width: 65%;
 }
 
 #contact {
@@ -90,47 +89,55 @@ p {
     border-radius: 20px;
 }
 
-#contact > a {
-    display: block;
-    font-family: Arial;
-    transition: ease-in 0.3s;
-}
-
-#contact > a:hover {
-    color: red;
+#originality {
+    text-align: center;
 }
 
 #originality > div {
+    position: relative;
     text-align: left;
-    width: 800px;
+    display: inline-block;
+    width: 65%;
+}
+
+#goals {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 #goals > ul {
+    position: relative;
     text-align: left;
+    display: inline-block;
+    width: auto;
+}
+
+#resume {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 #resume > img {
+    position: relative;
+    width: 70%;
     border: solid;
-    border-width: thick;
+    border-width: medium;
     border-color: grey;
+}
+
+#references {
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 #references > div {
     background-color: grey;
     display: inline-block;
-    vertical-align: top;
     width: 400px;
     padding: 1em;
     margin: 1em;
     border-radius: 20px;
-}
-
-#references > div > a {
-    display: block;
-    font-family: Arial;
-    transition: ease-in 0.3s;
-}
-
-#references > div > a:hover {
-    color: red;
 }
