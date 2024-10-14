@@ -109,6 +109,12 @@ p {
     text-align: left;
 }
 
+#resume > img {
+    border: solid;
+    border-width: thick;
+    border-color: grey;
+}
+
 #references > div {
     background-color: grey;
     display: inline-block;
